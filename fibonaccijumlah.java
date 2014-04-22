@@ -18,18 +18,19 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);    
         int inputan=scan.nextInt();
-        //menjadi program terbalik sekarang
-        int x=1,y=0,z=1,a,b;
+        
+        int jumlah=0, x=1,y=0,z=1,a,b;
         System.out.println("Hasil: ");
         for(int i=0;i<inputan;i++){
             System.out.print(x+" ");
+            jumlah=jumlah+x;
             x=y+z;
             a=z;
             y=a;
             b=x;
-           
-            //asumsi sudah terbalik
+            z=b;
             
         }
+        System.out.println("jumlah : "+jumlah);
     }
 }
