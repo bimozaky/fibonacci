@@ -18,7 +18,7 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);    
         int inputan=scan.nextInt();
-        
+        //menjadi program terbalik sekarang
         int x=1,y=0,z=1,a,b;
         System.out.println("Hasil: ");
         for(int i=0;i<inputan;i++){
@@ -27,7 +27,8 @@ public class JavaApplication1 {
             a=z;
             y=a;
             b=x;
-            z=b;
+           
+            //asumsi sudah terbalik
             
         }
     }
